@@ -75,6 +75,8 @@ interface wlan0
 
 This will give it a static address of _192.168.17.1_
 
+sudo rfkill unblock wlan
+
 Now restart the DHCP server with `sudo service dhcpcd restart`
 
 ## Install hostapd
